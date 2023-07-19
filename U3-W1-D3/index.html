@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Seconda esercitazione OOP</title>
+  </head>
+  <body>
+    <h1>Calcolatore Reddito Netto</h1>
+
+    <div class="form">
+      <label for="fatturato">Fatturato Lordo:</label>
+      <input
+        type="number"
+        id="fatturato"
+        placeholder="Inserisci il fatturato lordo"
+        required
+      />
+
+      <label for="spese">Spese:</label>
+      <input
+        type="number"
+        id="spese"
+        placeholder="Inserisci le spese"
+        required
+      />
+
+      <label for="inps">INPS (%):</label>
+      <input
+        type="number"
+        id="inps"
+        placeholder="Inserisci l'aliquota INPS"
+        required
+      />
+
+      <button id="calcola">Calcola</button>
+
+      <div id="risultato"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
